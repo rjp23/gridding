@@ -1,0 +1,19 @@
+{
+	"basic":{
+    	"lat": "latitude",
+    	"lon": "longitude",
+    	"lat_bnd": "latitude_corners",
+    	"lon_bnd": "longitude_corners",
+    	"sza": "solar_zenith_angle",
+    	"vza": "sensor_zenith_angle",
+    	"time": "time"
+},
+	"grid":{
+		"xch4": "xch4"
+	},
+	"filter_eq":{"quality_flag": 0},
+	"filter_gt":{"land_fraction": 50},
+	"filePattern": "ESACCI-GHG-L2-CH4-CO-TROPOMI-WFMD-YYYYMMDD-fv1.nc",
+	"folder": "/gws/nopw/j04/ukesm_nceo/rob/bremen_s5p_ch4/v1.2/"
+}
+
